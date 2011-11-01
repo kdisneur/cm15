@@ -6,9 +6,9 @@ Works with Ruby 1.9
 
 = How to use
 
-1. Download and compile cm15ademo following this link: 
-2. Rename cm15ademo to cm15a
-3. Add it in your PATH
+1. Download and compile cm15ademo following this link: http://www.eclipsehomeauto.com/cm15a_on_linux/cm15ademo.tar.gz
+2. Rename cm15ademo binary to cm15a
+3. Add it in your system PATH
 4. Include CM15 gem in your project
 
 Exemple of use:
@@ -18,7 +18,7 @@ Exemple of use:
 
 = Coming features
 
-* use libusb to avoid the system calling
+* use libusb to remove the system call to cm15ademo
 
 = Contributors
 
