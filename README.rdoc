@@ -1,24 +1,15 @@
 = CM15
 
+**Be careful it's not a stable library. It's just for testing CM15**
 CM15 is a program written in Ruby that help you to manage your domotic installation
 
 Works with Ruby 1.9
 
-= How to use
-
-1. Download and compile cm15ademo following this link: http://www.eclipsehomeauto.com/cm15a_on_linux/cm15ademo.tar.gz
-2. Rename cm15ademo binary to cm15a
-3. Add it in your system PATH
-4. Include CM15 gem in your project
 
 Exemple of use:
 
-  bedroom_lamp = Cm15::Components::Lamp.new "bedroom_lamp", :C, 1
+  bedroom_lamp = Cm15::Components::Lamp.new :C, 1
   bedroom_lamp.light_on
-
-= Coming features
-
-* use libusb to remove the system call to cm15ademo
 
 = Contributors
 
