@@ -1,6 +1,7 @@
 = CM15
 
 **Be careful it's not a stable library. It's just for testing CM15**
+
 CM15 is a program written in Ruby that help you to manage your domotic installation
 
 Works with Ruby 1.9
