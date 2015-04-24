@@ -6,7 +6,6 @@ CM15 is a program written in Ruby that help you to manage your domotic installat
 
 Works with Ruby 1.9
 
-
 Exemple of use:
 
   bedroom_lamp = Cm15::Components::Lamp.new :C, 1
